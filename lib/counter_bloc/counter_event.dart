@@ -6,6 +6,6 @@ sealed class CounterEvent {}
 
 class IncreamentEvent extends CounterEvent{}
 
-class Decreament extends CounterEvent{}
+class DecreamentEvent extends CounterEvent{}
 
 class ResetEvent extends CounterEvent{}
